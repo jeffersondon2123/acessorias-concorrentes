@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIBO especificações</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 0px; /* Espaço lateral maximizado */
+        }
+        .coluna {
+            flex: 1;
+            background-color: #f0f0f0;
+            margin: 2px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+<div>
+    <header>
+        <a href="index.html">
+            <h1 class="titulo-painel">Acessórias</h1>
+        </a>
+    </header>
+</div>
+
+<div class="container">
+    <div class="coluna">
+        <h2>Gestão</h2>
+        <p>
+            PAINEL DE INDICADORES
+            <br><br>
+            Não possui um painel específico, mas apresenta um campo de "Obrigações" com um calendário mensal exibindo vencimentos e ícones para indicar status.
+            <br><br>
+            <strong>USUÁRIOS E PERMISSÕES</strong>
+            <br><br>
+            Semelhante ao Acessórias, porém, ao adicionar um novo usuário, é possível selecionar em quais empresas ele terá acesso.
+            <br><br>
+            <strong>DEPARTAMENTOS</strong>
+            
+           <br>
+            <br>
+            Oferece uma base de obrigações completas e permite criar novas obrigações, porém não as vincula diretamente ao Regime Tributário como no Acessórias.
+           <br><br>
+            <strong>REGIME TRIBUTÁRIO</strong>
+            <br><br>
+            As obrigações devem ser vinculadas manualmente às empresas, sem um sistema automatizado de associação como no Acessórias.
+            <br><br>
+            <strong>EMPRESAS</strong>
+            <br><br>
+            Permite cadastrar empresas com CNPJ/CPF/CEI, com opção de importação por planilha CSV.
+            <br>
+            Restrição na importação por CSV: permite apenas 1 contato por empresa, mas no cadastro manual é possível adicionar múltiplos contatos.
+            <br>
+            Oferece a opção de enviar e-mail de boas-vindas ao cliente ao ser cadastrado na Nibo.</p>
+    </div>
+    <div class="coluna">
+        <h2>AUTOMAÇÃO</h2>
+        <p>
+            - A automação é similar a do e-Contínuo 
+            
+            <strong>TAREFAS</strong>
+             - É criado um ""pacote"" com as tarefas que são desejadas, semelhante a função ""Envio de Grupo de Obrigações"". A vantagem é que com este pacote de tarefas criado, posso inseri-lo nas empresas desejadas, e somente após este pacote ser feito completo que será dado baixa nesta ""tarefa"".
+            <br><br>
+            <strong>LISTA DE ENTREGAS</strong>
+            <br><br>
+                        - Possibilidade de envio de documentos semelhantes ao Acessórias (Excel, Word, Pasta zipada)"
+            </p>
+    </div>
+    <div class="coluna">
+        <h2>APLICATIVO</h2>
+        <p>
+            - O aplicativo disponibilizado para o cliente é personalizado com funcionalidades de acordo com o pacote contratado pelo contador 
+            <br><br>
+
+            - O sistema Nibo não possui aplicativo exclusivo para o cliente, é um APP genérico chamado Nibo Empresa, tendo apenas integração com Whatsapp
+            <br><br>
+            <strong>SOLICITAÇÕES</strong>
+            <br><br>
+            - Nomeado como ""atendimento"" permite o contato semelhante ao campo Solicitações do Acessórias
+            <br><br>
+            <strong>GED</strong>           
+             <br><br>
+            - Separado por documentos enviados e documentos recebidos somente
+            <br><br>
+            <strong>PROCESSOS</strong>
+            - Disponível no Portal de Clientes (site), permite interagir no processo e anexar documentos (tanto cliente quanto contador)
+            <br><br>
+            <strong>DASHBOARDING       </strong>
+            <br><br>
+            - Detalhado com os documentos que já foram recebidos e enviados "
+            </p>
+    </div>
+    <div class="coluna">
+        <h2>GESTÃO DE PROCESSOS</h2>
+        <p>Não possui um módulo para Processos, tendo apenas a possibilidade de enviar "atendimentos" e através destes ser inserido anexos ou coisas do tipo.
+</p>
+    </div>
+    <div class="coluna">
+        <h2>METODO APLA
+
+        </h2>
+        <p>"- O nibo fornece um módulo chamado ""Gestão Financeira"" que permite validar fluxo de caixa, provisão de recebimentos e pagamentos e de fato permite realizar a gestão financeira do escritório com detalhes. 
+            <br><br>
+            - Permite detalhar quais serão os custos que a empresa terá mensalmente
+            <br><br>
+            - É possível automatizar a emissão de boletos honoorários e notas fiscais, além da automação que permite validar  quando o cliente do escritório efetuou o pagamento e registrar isto no relatório.         
+               <br><br>
+            - As notas fiscais integram com diversos municípios permitindo que haja uma automação em sua emissão
+            <br><br>
+            - Realiza conciliação Bancária com os principais bancos permitindo acesso aos dados 
+            <br><br>
+            - Permite planejar orçamentos bancários baseado no caixa disponível na empresa."
+          </p>
+    </div>
+</div>
+
+</body>
+</html>

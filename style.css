@@ -1,0 +1,180 @@
+
+   body{
+    
+    background-color: rgb(255, 255, 255);
+   }
+   .container {
+        width: 100%;
+        overflow: auto; /* Clear float */
+    }
+    .titulo-painel{
+        text-align: center;
+        background-color: #0a4788;
+        padding:10px ;
+    }
+    .div {
+        
+        text-align: center;
+        background-color: rgb(197, 197, 197);
+        height: 300px; /* Altura fixa */
+        width: calc(25% - 10px); /* Ajuste para adicionar margem */
+        float: left;
+        box-sizing: border-box;
+        border: 1px solid black;
+        margin-right: 10px; /* Margem entre as divs */
+    }
+    .div:last-child {
+        margin-right: 0; /* Remover margem da última div */
+    }
+
+    .container2 {
+        
+        width: 100%;
+
+        height: 300px;
+        overflow: auto; /* Clear float */
+        background-color: rgb(255, 255, 255);
+        
+    }
+    .div2 {
+        padding: 20px;
+        background-color: rgb(197, 197, 197);
+        width: calc(25% - 10px); /* Ajuste para adicionar margem */
+        float: left;
+        height: 300px;
+        box-sizing: border-box;
+        border: 1px solid black;
+        margin-right: 10px; /* Margem entre as divs */
+        text-align: center;
+        
+    }
+    .div2:last-child {
+        margin-right: 0; /* Remover margem da última div */
+    }
+    #Gestão {
+        font-size: 17px;
+        
+    }
+    #Concorrentes {
+        text-align: center;
+    }
+    #OUTROS {
+        text-align: center;
+        font-size: 12px;
+
+    }
+    #escrita {
+        font-size: 20px;
+        margin: 34px;
+        text-align: left;
+        letter-spacing: 2px; /* Espaçamento entre as letras */
+
+    }
+    *
+    a:link{
+        text-decoration: none;
+        
+    }
+   
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f7f7f7;
+    }
+    form {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin: 20px auto;
+        max-width: 500px;
+    }
+    label {
+        font-weight: bold;
+    }
+    input[type="number"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+    input[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    input[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+    #classificacao {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin: 20px auto;
+        max-width: 400px;
+    }
+    #classificacao h2 {
+        margin-top: 0;
+    }
+    #classificacao p {
+        margin-bottom: 0;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+    }
+
+    header {
+        background-color: #0a4788;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .div, .div2 {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        text-align: center;
+        width: 250px;
+    }
+
+    .div h1, .div2 h1 {
+        color: #333;
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .div p, .div2 p {
+        color: #666;
+        font-size: 14px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #007bff;
+        transition: color 0.3s;
+    }
+
+    a:hover {
+        color: #0056b3;
+    }
+    
